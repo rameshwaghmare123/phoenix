@@ -1,5 +1,24 @@
 # Changelog
 
+## [5.6.0](https://github.com/Arize-ai/phoenix/compare/arize-phoenix-v5.5.2...arize-phoenix-v5.6.0) (2024-10-25)
+
+
+### Features
+
+* Add LLMRelationalEvaluator to phoenix experiments ([#5170](https://github.com/Arize-ai/phoenix/issues/5170)) ([19021e4](https://github.com/Arize-ai/phoenix/commit/19021e4f4780a5d1bec453a1a7d132bd35f67cec))
+* **playground:** add token counts for anthropic ([#5161](https://github.com/Arize-ai/phoenix/issues/5161)) ([2eae8c5](https://github.com/Arize-ai/phoenix/commit/2eae8c5df25c4454352d4167b3435675db19ae75))
+* **playground:** add tool role messages to ui ([#5103](https://github.com/Arize-ai/phoenix/issues/5103)) ([083ef42](https://github.com/Arize-ai/phoenix/commit/083ef427c794bbf64f66b8ed7e5d8490250050c6))
+* **playground:** plumb through message tool_calls from span to playground ([#5197](https://github.com/Arize-ai/phoenix/issues/5197)) ([a1886a0](https://github.com/Arize-ai/phoenix/commit/a1886a022056444c79f244e7750bb9f745ced64b))
+* Scaffold model invocation params form ([#5040](https://github.com/Arize-ai/phoenix/issues/5040)) ([#5045](https://github.com/Arize-ai/phoenix/issues/5045)) ([6efc700](https://github.com/Arize-ai/phoenix/commit/6efc70087538265068092b6d72b2dbfd6f927688))
+
+
+### Bug Fixes
+
+* **playground:** improve playground error handling ([#5188](https://github.com/Arize-ai/phoenix/issues/5188)) ([b0436d7](https://github.com/Arize-ai/phoenix/commit/b0436d79c64a0db23f46a8fdf3592d1cea965bda))
+* remove `embeddings` from core dependencies ([#5150](https://github.com/Arize-ai/phoenix/issues/5150)) ([fab0ca2](https://github.com/Arize-ai/phoenix/commit/fab0ca282096409afaf728ddee8c3567c9a553ba))
+* **styles:** make prompt section scrollable to the bottom ([#5173](https://github.com/Arize-ai/phoenix/issues/5173)) ([99a3d1c](https://github.com/Arize-ai/phoenix/commit/99a3d1c0d4adc0b9f64c493769c8c87f9f3d136f))
+* update to properly initialize when brought into view ([#5172](https://github.com/Arize-ai/phoenix/issues/5172)) ([26aae5e](https://github.com/Arize-ai/phoenix/commit/26aae5e4c7a8a63cdc66106cb3c30f55ca678d79))
+
 ## [5.5.2](https://github.com/Arize-ai/phoenix/compare/arize-phoenix-v5.5.1...arize-phoenix-v5.5.2) (2024-10-21)
 
 
